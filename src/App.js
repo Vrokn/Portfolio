@@ -6,6 +6,7 @@ import Intro from './Components/Intro'
 import Fade from './Components/Fade'
 import Description from './Components/Description';
 import { Parallax } from 'react-scroll-parallax';
+import Page1 from './Components/Page1'
 
 class App extends Component {
 
@@ -20,6 +21,7 @@ class App extends Component {
         <Parallax y={[20, -20]}>
           <Fade />
         </Parallax>
+        <Page1 />
       </div>
     );
   }

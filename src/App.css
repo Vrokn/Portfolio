@@ -18,7 +18,7 @@
 
 .intro {
   position: relative;
-  top: 45vh;  
+  top: 45vh;
   width: 50%;
   font-family: 'Michroma', sans-serif;
   text-shadow: 3px 3px 5px #000000;
@@ -89,7 +89,6 @@ body {
   height: 90%;
   background-image: url(./Mateo.png);
   left: -5%;
-
 }
 
 .containerfade {
@@ -111,4 +110,17 @@ body {
   position: relative;
   max-width: 70%;
   z-index: 1;
+}
+
+.vid {
+  position: relative;
+  height: 90vh;
+}
+
+.vid video {
+  height: 100%;
+}
+
+.page1 {
+  position: relative;
 }
