@@ -5,6 +5,7 @@ import Particulas from './Components/Particulas'
 import Intro from './Components/Intro'
 import Fade from './Components/Fade'
 import Description from './Components/Description';
+import { Parallax } from 'react-scroll-parallax';
 
 class App extends Component {
 
@@ -12,14 +13,13 @@ class App extends Component {
 
     return (
       <div className="App">
-
-        <Particulas />
         <Header />
-        <Fade />
-        <Intro />
+        <Particulas />
+          <Intro />
         <Description />
-
-
+        <Parallax y={[20, -20]}>
+          <Fade />
+        </Parallax>
       </div>
     );
   }

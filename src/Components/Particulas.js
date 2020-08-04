@@ -8,7 +8,7 @@ export default function Particulas() {
             id="tsparticles"
             options={{
                 background: {
-                    image: "url('./Mateobg.png')",
+                    image: 'linear-gradient(to bottom, #000000 0%, #080316 100%)',
                     repeat: 'no-repeat',
                     size: 'cover',
                     position: 'center center',
@@ -32,10 +32,10 @@ export default function Particulas() {
                     },
                     modes: {
                         bubble: {
-                            distance: 100,
-                            duration: 3,
+                            distance: 150,
+                            duration: 6,
                             opacity: 0.8,
-                            size: 5,
+                            size: 8,
                         },
                         push: {
                             quantity: 4,
@@ -52,7 +52,7 @@ export default function Particulas() {
                     },
                     links: {
                         color: "#ffffff",
-                        distance: 150,
+                        distance: 200,
                         enable: true,
                         opacity: 0.5,
                         width: 1,
@@ -73,7 +73,7 @@ export default function Particulas() {
                             enable: false,
                             value_area: 800,
                         },
-                        value: 60,
+                        value: 360,
                     },
                     opacity: {
                         value: 0.5,
