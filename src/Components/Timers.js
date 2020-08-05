@@ -10,7 +10,7 @@ export default function Timers() {
     const [props, set] = useSpring(() => ({ xys: [0, 0, 1], config: { mass: 5, tension: 100, friction: 30 } }))
 
     return (
-        <Container className={'Timers'} fluid>
+        <Container className={'Timers'} id='timers'fluid>
             <Row className="justify-content-md-center">
                 <Col md={{ order: 'last' }}>
                     <Parallax y={[15, -20]}>
@@ -29,7 +29,11 @@ export default function Timers() {
                     <Parallax y={[15, -20]}>
                         <a className='refLink' href="https://vrokn.github.io/Timers/" target="_blank" rel="noopener noreferrer"> Stopwatches </a>
                         <br></br>
-                        <p>Stopwatches test</p><br></br>
+                        <p>
+                            This is a site created in React.js that allows us to create stopwatches
+                            to keep track of the time dedicated to certain tasks.
+                            Used semantic UI as framework to style the site.
+                        </p><br></br>
                     </Parallax>
                 </Col>
             </Row>

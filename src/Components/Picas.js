@@ -10,7 +10,7 @@ export default function Picas() {
     const [props, set] = useSpring(() => ({ xys: [0, 0, 1], config: { mass: 5, tension: 100, friction: 30 } }))
 
     return (
-        <Container className={'Picas'} fluid>
+        <Container className={'Picas'} fluid id='picas'>
             <Row className="justify-content-md-center">
                 <Col md={{ order: 'last' }}>
                     <Parallax y={[15, -20]}>
@@ -29,7 +29,12 @@ export default function Picas() {
                     <Parallax y={[15, -20]}>
                         <a className='refLink' href="https://vrokn.github.io/picasyfijas/" target="_blank" rel="noopener noreferrer"> Bulls and Cows </a>
                         <br></br>
-                        <p>Picas test</p><br></br>
+                        <p>Bulls and cows (Picas y Fijas) is a traditional game that consists of guessing a secret 4-digit number in the
+                        fewest number of attempts.
+                        Bulls (Fijas) gives the number of numbers that are in a correct box and Cows (Picas)
+                        the number of numbers that are within the 4 digits to guess but are in the wrong position.
+                        This little game is built using Jquery and JavaScript that allow us to
+                             read the events and generate the random number only with code.</p><br></br>
                     </Parallax>
                 </Col>
             </Row>

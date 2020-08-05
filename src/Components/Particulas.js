@@ -73,7 +73,7 @@ export default function Particulas() {
                             enable: false,
                             value_area: 800,
                         },
-                        value: 360,
+                        value: 300,
                     },
                     opacity: {
                         value: 0.5,

@@ -10,7 +10,7 @@ export default function Jaguar() {
     const [props, set] = useSpring(() => ({ xys: [0, 0, 1], config: { mass: 5, tension: 100, friction: 30 } }))
 
     return (
-        <Container className={'Jaguar'} fluid>
+        <Container className={'Jaguar'} id='jaguar' fluid>
             <Row className="justify-content-md-center">
                 <Col md >
                     <Parallax y={[15, -20]}>
@@ -29,7 +29,8 @@ export default function Jaguar() {
                     <Parallax y={[15, -20]}>
                         <a className='refLink' href="https://vrokn.github.io/landingforjaguar/" target="_blank" rel="noopener noreferrer"> Landing for Jaguar </a>
                         <br></br>
-                        <p>Jaguar test</p><br></br>
+                        <p>This is an example of a landing site for the Jaguar XE model.
+                            This site was built using only HTML and CSS to observe the transition and style effects that can be achieved with a basic code. </p><br></br>
                     </Parallax>
                 </Col>
             </Row>

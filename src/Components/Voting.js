@@ -10,7 +10,7 @@ export default function Voting() {
     const [props, set] = useSpring(() => ({ xys: [0, 0, 1], config: { mass: 5, tension: 100, friction: 30 } }))
 
     return (
-        <Container className={'Voting'} fluid>
+        <Container className={'Voting'} id='voting' fluid>
             <Row className="justify-content-md-center">
                 <Col md>
                     <Parallax y={[15, -20]}>
@@ -29,7 +29,9 @@ export default function Voting() {
                     <Parallax y={[15, -20]}>
                         <a className='refLink' href="https://vrokn.github.io/postsvoting/" target="_blank" rel="noopener noreferrer"> Posts Voting Blog </a>
                         <br></br>
-                        <p>Voting test</p><br></br>
+                        <p>
+                            This site inspired by the popular reddit allows us to vote and order blog posts by the number of votes all in real time.
+                             The site uses Semanti UI as a framework and is built using React js that allow us to have responsive behavior.</p><br></br>
                     </Parallax>
                 </Col>
             </Row>

@@ -4,7 +4,7 @@ import { Container } from 'react-bootstrap';
 
 export default function Works() {
     return (
-        <Container className={'works'} fluid>
+        <Container className={'works'} id='knot' fluid>
             <h1>&sdot; <Typed
                     strings={[
                         " WORKS "]}

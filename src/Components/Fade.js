@@ -12,7 +12,7 @@ export default function Fade() {
     const [props, set] = useSpring(() => ({ xy: [0, 0], config: { mass: 10, tension: 550, friction: 140 } }))
 
     return (
-        <Container className={'works'} fluid>
+        <Container className={'works'} id='about' fluid>
 
             <div class="containerfade" onMouseMove={({ clientX: x, clientY: y }) => set({ xy: calc(x, y) })}>
 

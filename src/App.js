@@ -12,34 +12,36 @@ import Voting from './Components/Voting'
 import Jaguar from './Components/Jaguar'
 import Timers from './Components/Timers'
 import Works from './Components/Works'
+import Contact from './Components/Contact'
 
+import {
+  BrowserRouter as Router,
+} from "react-router-dom";
 
 class App extends Component {
 
   render() {
 
     return (
-      <div className="App">
-        <Header />
-        <Particulas />
-        <Intro />
-        <Description />
-        <Parallax y={[15, -20]}>
-          <Fade />
-        </Parallax>
-        <Works />
+      <Router>
+        <div className="App">
+          <Header />
+          <Particulas />
+          <Intro />
+          <Parallax y={[15, -20]}>
+            <Fade />
+          </Parallax>
+          <Description />
+          <Works />
+          <Knot />
+          <Voting />
+          <Picas />
+          <Jaguar />
+          <Timers />
+          <Contact />
 
-        <Knot />
-
-        <Voting />
-
-        <Picas />
-
-        <Jaguar />
-
-        <Timers />
-
-      </div>
+        </div>
+      </Router>
     );
   }
 }

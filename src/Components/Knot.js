@@ -14,12 +14,11 @@ export default function Knot() {
         <Container className={'Knot'} fluid>
             <Row>
                 <Col md={{ order: 'last' }}>
-                    <Parallax y={[15, -20]}>
+                    <Parallax y={[0, -20]}>
                         <animated.div
                             onMouseMove={({ clientX: x, clientY: y }) => set({ xys: calc(x, y) })}
                             onMouseLeave={() => set({ xys: [0, 0, 1] })}
-                            style={{ transform: props.xys.interpolate(trans) }}
-                        >
+                            style={{ transform: props.xys.interpolate(trans) }}                        >
                             <video className='video' loop autoPlay muted width="100%">
                                 <source src={video1} type='video/mp4' />
                             </video>
@@ -27,12 +26,15 @@ export default function Knot() {
                     </Parallax>
                 </Col>
                 <Col md>
-                    <Parallax y={[15, -20]}>
+                    <Parallax y={[0, -20]}>
                         <a className='refLink' href="https://vrokn.github.io/bootstrap-e-commerce/" target="_blank" rel="noopener noreferrer">
                             Knot E-commerce </a>
                         <br></br>
                         <div id='#page'>
-                            <p >E commerce test</p>
+                            <p >
+                                Here we can see an e-commerce designed and created for the Knot t-shirt brand using Bootstrap as a framework.
+                                On this site we can highlight some of the components of Bootstrap and the possibilities it offers us,
+                                such as achieving an adaptive and responsive design.</p>
                         </div>
                     </Parallax>
                 </Col>

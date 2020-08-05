@@ -13,7 +13,7 @@ export default function Description() {
             <Parallax y={[-0, -20]}>
                 <p>Hi! my name is Mateo Gómez Ossa I am an artist, music producer / DJ
                 and now a full-stack developer in growth and training
-                graduated from the Make it Real bootcamp. I'm building futures
+                graduated from the Make it Real bootcamp. I'm building future
                 projects and apps with a fast consumption design, simple design but
           structured and easy to use for all users.</p><br></br>
             </Parallax>

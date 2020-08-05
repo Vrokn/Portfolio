@@ -4,8 +4,8 @@ import { Container } from 'react-bootstrap';
 
 export default function Intro() {
     return (
-        <Container className={'intro'} fluid>
-            <h1>&sdot; <Typed
+        <Container className={'intro'} id='home' fluid>
+            <h1> <Typed
                     strings={[
                         " Hello! I'm Mateo ",
                         " Web developer ",
