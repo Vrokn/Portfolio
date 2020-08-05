@@ -1,6 +1,5 @@
 import { useSpring, animated } from 'react-spring';
 import React from 'react';
-import Typed from 'react-typed';
 import { Container } from 'react-bootstrap';
 
 
