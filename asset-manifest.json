@@ -1,23 +1,28 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.058aded2.chunk.css",
-    "main.js": "/portfolio/static/js/main.342637fe.chunk.js",
-    "main.js.map": "/portfolio/static/js/main.342637fe.chunk.js.map",
+    "main.css": "/portfolio/static/css/main.1de37e9f.chunk.css",
+    "main.js": "/portfolio/static/js/main.a11b2401.chunk.js",
+    "main.js.map": "/portfolio/static/js/main.a11b2401.chunk.js.map",
     "runtime-main.js": "/portfolio/static/js/runtime-main.075c0788.js",
     "runtime-main.js.map": "/portfolio/static/js/runtime-main.075c0788.js.map",
-    "static/js/2.81aa569d.chunk.js": "/portfolio/static/js/2.81aa569d.chunk.js",
-    "static/js/2.81aa569d.chunk.js.map": "/portfolio/static/js/2.81aa569d.chunk.js.map",
+    "static/js/2.aa5e83ac.chunk.js": "/portfolio/static/js/2.aa5e83ac.chunk.js",
+    "static/js/2.aa5e83ac.chunk.js.map": "/portfolio/static/js/2.aa5e83ac.chunk.js.map",
     "index.html": "/portfolio/index.html",
-    "precache-manifest.9a8432c908f3d5d6605cdd8d390bec40.js": "/portfolio/precache-manifest.9a8432c908f3d5d6605cdd8d390bec40.js",
+    "precache-manifest.6f5db44b08edb7865f3cea892aa7b2d7.js": "/portfolio/precache-manifest.6f5db44b08edb7865f3cea892aa7b2d7.js",
     "service-worker.js": "/portfolio/service-worker.js",
-    "static/css/main.058aded2.chunk.css.map": "/portfolio/static/css/main.058aded2.chunk.css.map",
-    "static/js/2.81aa569d.chunk.js.LICENSE.txt": "/portfolio/static/js/2.81aa569d.chunk.js.LICENSE.txt",
-    "static/media/App.css": "/portfolio/static/media/Mateo.59899d42.png"
+    "static/css/main.1de37e9f.chunk.css.map": "/portfolio/static/css/main.1de37e9f.chunk.css.map",
+    "static/js/2.aa5e83ac.chunk.js.LICENSE.txt": "/portfolio/static/js/2.aa5e83ac.chunk.js.LICENSE.txt",
+    "static/media/App.css": "/portfolio/static/media/Mateo.23c241b6.png",
+    "static/media/jaguar.mp4": "/portfolio/static/media/jaguar.bf69473d.mp4",
+    "static/media/knot.mp4": "/portfolio/static/media/knot.7c90d77e.mp4",
+    "static/media/picas.mp4": "/portfolio/static/media/picas.ed45aa94.mp4",
+    "static/media/timers.mp4": "/portfolio/static/media/timers.52280b3d.mp4",
+    "static/media/voting.mp4": "/portfolio/static/media/voting.b25c1c3c.mp4"
   },
   "entrypoints": [
     "static/js/runtime-main.075c0788.js",
-    "static/js/2.81aa569d.chunk.js",
-    "static/css/main.058aded2.chunk.css",
-    "static/js/main.342637fe.chunk.js"
+    "static/js/2.aa5e83ac.chunk.js",
+    "static/css/main.1de37e9f.chunk.css",
+    "static/js/main.a11b2401.chunk.js"
   ]
 }
