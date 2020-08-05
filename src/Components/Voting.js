@@ -13,20 +13,24 @@ export default function Voting() {
         <Container className={'Voting'} fluid>
             <Row className="justify-content-md-center">
                 <Col md>
-                    <animated.div
-                        onMouseMove={({ clientX: x, clientY: y }) => set({ xys: calc(x, y) })}
-                        onMouseLeave={() => set({ xys: [0, 0, 1] })}
-                        style={{ transform: props.xys.interpolate(trans) }}
-                    >
-                        <video className='video' loop autoPlay muted width="100%">
-                            <source src={video1} type='video/mp4' />
-                        </video>
-                    </animated.div>
+                    <Parallax y={[15, -20]}>
+                        <animated.div
+                            onMouseMove={({ clientX: x, clientY: y }) => set({ xys: calc(x, y) })}
+                            onMouseLeave={() => set({ xys: [0, 0, 1] })}
+                            style={{ transform: props.xys.interpolate(trans) }}
+                        >
+                            <video className='video' loop autoPlay muted width="100%">
+                                <source src={video1} type='video/mp4' />
+                            </video>
+                        </animated.div>
+                    </Parallax>
                 </Col>
                 <Col md>
-                    <a className='refLink' href="https://vrokn.github.io/postsvoting/" target="_blank" rel="noopener noreferrer"> Posts Voting Blog </a>
-                    <br></br>
-                    <p>Voting test</p><br></br>
+                    <Parallax y={[15, -20]}>
+                        <a className='refLink' href="https://vrokn.github.io/postsvoting/" target="_blank" rel="noopener noreferrer"> Posts Voting Blog </a>
+                        <br></br>
+                        <p>Voting test</p><br></br>
+                    </Parallax>
                 </Col>
             </Row>
         </Container>

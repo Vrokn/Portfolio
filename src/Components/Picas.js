@@ -13,20 +13,24 @@ export default function Picas() {
         <Container className={'Picas'} fluid>
             <Row className="justify-content-md-center">
                 <Col md={{ order: 'last' }}>
-                    <animated.div
-                        onMouseMove={({ clientX: x, clientY: y }) => set({ xys: calc(x, y) })}
-                        onMouseLeave={() => set({ xys: [0, 0, 1] })}
-                        style={{ transform: props.xys.interpolate(trans) }}
-                    >
-                        <video className='video' loop autoPlay muted width="100%">
-                            <source src={video1} type='video/mp4' />
-                        </video>
-                    </animated.div>
+                    <Parallax y={[15, -20]}>
+                        <animated.div
+                            onMouseMove={({ clientX: x, clientY: y }) => set({ xys: calc(x, y) })}
+                            onMouseLeave={() => set({ xys: [0, 0, 1] })}
+                            style={{ transform: props.xys.interpolate(trans) }}
+                        >
+                            <video className='video' loop autoPlay muted width="100%">
+                                <source src={video1} type='video/mp4' />
+                            </video>
+                        </animated.div>
+                    </Parallax>
                 </Col>
                 <Col md>
-                    <a className='refLink' href="https://vrokn.github.io/picasyfijas/" target="_blank" rel="noopener noreferrer"> Bulls and Cows </a>
-                    <br></br>
-                    <p>Picas test</p><br></br>
+                    <Parallax y={[15, -20]}>
+                        <a className='refLink' href="https://vrokn.github.io/picasyfijas/" target="_blank" rel="noopener noreferrer"> Bulls and Cows </a>
+                        <br></br>
+                        <p>Picas test</p><br></br>
+                    </Parallax>
                 </Col>
             </Row>
         </Container>

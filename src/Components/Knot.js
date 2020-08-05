@@ -14,23 +14,27 @@ export default function Knot() {
         <Container className={'Knot'} fluid>
             <Row>
                 <Col md={{ order: 'last' }}>
-                    <animated.div
-                        onMouseMove={({ clientX: x, clientY: y }) => set({ xys: calc(x, y) })}
-                        onMouseLeave={() => set({ xys: [0, 0, 1] })}
-                        style={{ transform: props.xys.interpolate(trans) }}
-                    >
-                        <video className='video' loop autoPlay muted width="100%">
-                            <source src={video1} type='video/mp4' />
-                        </video>
-                    </animated.div>
+                    <Parallax y={[15, -20]}>
+                        <animated.div
+                            onMouseMove={({ clientX: x, clientY: y }) => set({ xys: calc(x, y) })}
+                            onMouseLeave={() => set({ xys: [0, 0, 1] })}
+                            style={{ transform: props.xys.interpolate(trans) }}
+                        >
+                            <video className='video' loop autoPlay muted width="100%">
+                                <source src={video1} type='video/mp4' />
+                            </video>
+                        </animated.div>
+                    </Parallax>
                 </Col>
                 <Col md>
-                    <a className='refLink' href="https://vrokn.github.io/bootstrap-e-commerce/" target="_blank" rel="noopener noreferrer">
-                        Knot E-commerce </a>
-                    <br></br>
-                    <div id='#page'>
-                        <p >E commerce test</p>
-                    </div>
+                    <Parallax y={[15, -20]}>
+                        <a className='refLink' href="https://vrokn.github.io/bootstrap-e-commerce/" target="_blank" rel="noopener noreferrer">
+                            Knot E-commerce </a>
+                        <br></br>
+                        <div id='#page'>
+                            <p >E commerce test</p>
+                        </div>
+                    </Parallax>
                 </Col>
             </Row>
         </Container>
