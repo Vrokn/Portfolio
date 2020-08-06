@@ -16,7 +16,7 @@ export default function Particulas() {
                         value: "#000000",
                     },
                 },
-                fpsLimit: 60,
+                fpsLimit: 30,
                 interactivity: {
                     detectsOn: "window",
                     events: {
@@ -73,7 +73,7 @@ export default function Particulas() {
                             enable: false,
                             value_area: 800,
                         },
-                        value: 300,
+                        value: 250,
                     },
                     opacity: {
                         value: 0.5,
