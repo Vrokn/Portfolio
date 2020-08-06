@@ -83,6 +83,8 @@ html, body {
   padding: 0;
   position: relative;
   min-height: 310em;
+  height: 400em;
+
 }
 
 .card1 {
