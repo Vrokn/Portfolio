@@ -70,7 +70,9 @@ h5 {
 
 @media (max-width: 765px) {
   html, body {
-    min-height: 350rem !important;
+    min-height: 360rem !important;
+    height: 400em;
+
   }
 }
 
