@@ -15,6 +15,7 @@
 }
 
 .App {
+  height: 100%;
   color: white;
   font-family: 'Montserrat', sans-serif;
 }
@@ -66,6 +67,12 @@ h5 {
   z-index: -2;
 }
 
+@media (max-width: 765px) {
+  html, body, #root {
+    min-height: 490rem !important;
+  }
+}
+
 html, body, #root {
   width: 100%;
   height: 100%;
@@ -74,6 +81,7 @@ html, body, #root {
   position: relative;
   background-image: linear-gradient(to bottom, #000000 0%, #080316 100%);
   height: 900vh;
+  min-height: 410rem;
   display: flex;
 }
 
@@ -187,7 +195,7 @@ html {
 
 .contact {
   text-align: center;
-  top: 375vh;
+  top: 380vh;
   position: relative;
   background-color: transparent;
 }
