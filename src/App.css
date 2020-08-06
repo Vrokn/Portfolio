@@ -68,9 +68,9 @@ h5 {
   z-index: -2;
 }
 
-@media (max-width: 765px) {
+@media (max-width: 768px) {
   html, body {
-    min-height: 360rem !important;
+    min-height: 370rem !important;
     height: 400em;
 
   }
@@ -83,8 +83,6 @@ html, body {
   padding: 0;
   position: relative;
   min-height: 310em;
-  height: 400em;
-
 }
 
 .card1 {
