@@ -32,7 +32,7 @@ export default function Particulas() {
                     },
                     modes: {
                         bubble: {
-                            distance: 150,
+                            distance: 200,
                             duration: 6,
                             opacity: 0.8,
                             size: 8,
@@ -52,7 +52,7 @@ export default function Particulas() {
                     },
                     links: {
                         color: "#ffffff",
-                        distance: 200,
+                        distance: 250,
                         enable: true,
                         opacity: 0.5,
                         width: 1,
@@ -63,17 +63,17 @@ export default function Particulas() {
                     move: {
                         direction: "none",
                         enable: true,
-                        outMode: "bounce",
+                        outMode: "destroy",
                         random: true,
-                        speed: 1.5,
+                        speed: 1.3,
                         straight: false,
                     },
                     number: {
                         density: {
-                            enable: false,
-                            value_area: 800,
+                            enable: true,
+                            value_area: 15000,
                         },
-                        value: 250,
+                        value: 200,
                     },
                     opacity: {
                         value: 0.5,
