@@ -7,10 +7,11 @@ export default function Works() {
         <Container className={'works'} id='knot' fluid>
             <h1>&sdot; <Typed
                     strings={[
-                        " WORKS "]}
-                    typeSpeed={60}
+                        " PROJECTS "]}
+                    typeSpeed={70}
                     backSpeed={50}
-                     /> &sdot;</h1>
+                    backDelay={2000}
+                     loop /> &sdot;</h1>
         </Container>
     )
 }
