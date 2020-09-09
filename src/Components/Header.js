@@ -11,7 +11,7 @@ export default function Header() {
             <Navbar.Collapse id="responsive-navbar-nav">
                 <Nav className="mr-auto">
                     <Nav.Link href="#about">About</Nav.Link>
-                    <NavDropdown title="Proyects" id="collasible-nav-dropdown">
+                    <NavDropdown title="Projects" id="collasible-nav-dropdown">
                         <NavDropdown.Item href="#knot">Knot E-commerce</NavDropdown.Item>
                         <NavDropdown.Item href="#voting">Posts voting</NavDropdown.Item>
                         <NavDropdown.Item href="#picas">Bulls and Cows</NavDropdown.Item>
