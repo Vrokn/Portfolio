@@ -71,9 +71,9 @@ export default function Particulas() {
                     number: {
                         density: {
                             enable: true,
-                            value_area: 15000,
+                            value_area: 8000,
                         },
-                        value: 200,
+                        value: 100,
                     },
                     opacity: {
                         value: 0.5,
